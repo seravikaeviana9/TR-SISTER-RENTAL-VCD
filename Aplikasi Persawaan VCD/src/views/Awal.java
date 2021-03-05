@@ -6,7 +6,7 @@ public class Awal extends javax.swing.JFrame {
     public Awal() {
         initComponents();
     }
-
+ dasdsadsad
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
