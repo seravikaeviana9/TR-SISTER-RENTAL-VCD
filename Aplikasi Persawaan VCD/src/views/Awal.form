@@ -37,7 +37,10 @@
                   <Component id="jLabel1" alignment="2" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel2" alignment="2" min="-2" max="-2" attributes="0"/>
                   <Component id="pengunjung" alignment="2" min="-2" max="-2" attributes="0"/>
-                  <Component id="pegawai" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="pegawai" min="-2" pref="92" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace pref="73" max="32767" attributes="0"/>
           </Group>
@@ -54,7 +57,7 @@
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
               <Component id="pengunjung" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
               <Component id="pegawai" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="62" max="32767" attributes="0"/>
           </Group>
@@ -99,7 +102,7 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="aa" green="7b" red="4e" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Pegawai"/>
+        <Property name="text" type="java.lang.String" value="Admin"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pegawaiActionPerformed"/>

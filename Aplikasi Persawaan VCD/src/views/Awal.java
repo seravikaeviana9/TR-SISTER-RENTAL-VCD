@@ -39,7 +39,7 @@ public class Awal extends javax.swing.JFrame {
         });
 
         pegawai.setBackground(new java.awt.Color(78, 123, 170));
-        pegawai.setText("Pegawai");
+        pegawai.setText("Admin");
         pegawai.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pegawaiActionPerformed(evt);
@@ -57,7 +57,9 @@ public class Awal extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(jLabel2)
                     .addComponent(pengunjung)
-                    .addComponent(pegawai))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addGap(43, 43, 43)
+                        .addComponent(pegawai, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(73, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
